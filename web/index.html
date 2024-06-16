@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="A new Flutter project">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flutter App</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<script>
+  // Replace the deprecated variable with the template token
+  const serviceWorkerVersion = "{{flutter_service_worker_version}}";
+
+  // Replace the deprecated method with the new one
+  FlutterLoader.loadEntrypoint = FlutterLoader.load;
+</script>
+<script src="main.dart.js"></script>
+</body>
+</html>

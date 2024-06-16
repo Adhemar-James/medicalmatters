@@ -1,0 +1,16 @@
+//TODO
+
+Walking screen UI
+Bottom Nav Functionality
+Nearby Doctors screen not showing
+Setting up the Appointment screen
+Setting up the Category screen
+Setting up Search
+
+
+
+
+final TextEditingController controller = TextEditingController()
+
+void copyToClipboard (String text)
+Clipboard.setData(ClipboardData (text: text)
